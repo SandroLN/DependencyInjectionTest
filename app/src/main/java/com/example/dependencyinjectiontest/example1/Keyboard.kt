@@ -1,4 +1,6 @@
 package com.example.dependencyinjectiontest.example1
 
-class Keyboard {
+import javax.inject.Inject
+
+class Keyboard @Inject constructor() {
 }
